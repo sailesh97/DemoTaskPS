@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, ViewChild, ElementRef, Input, SimpleChanges } from '@angular/core';
 
 
 @Component({
@@ -14,11 +14,24 @@ export class ControlCounterComponent implements OnInit {
   countPauseEvent: number = 0;
   @ViewChild('timerInput', {static: true}) timerInput: ElementRef;
   @Output() startOrPause = new EventEmitter<any>();
+  @Input() refreshCmp: any;
   showErrorMsg: string = '';
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  ngOnChanges(changes: SimpleChanges){
+    console.log("Control Counter----",this.refreshCmp, changes)
+    if(changes && changes['refreshCmp'] && changes['refreshCmp'].currentValue && changes['refreshCmp'].currentValue.refresh != 'undefined'){
+      // Resetting the component state
+      this.startEvent = false;
+      this.disableInput = false;
+      this.countPauseEvent = 0;
+      this.countStartEvent = 0; 
+      this.timerInput.nativeElement.value = null;
+    }
   }
 
   startPauseCounter(e: any){

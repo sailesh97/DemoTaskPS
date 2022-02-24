@@ -19,6 +19,14 @@ export class ControlCounter2Component implements OnInit {
   constructor(private counterService: Couter2Service) { }
 
   ngOnInit(): void {
+    this.counterService.refreshControlCounter.subscribe(data => {
+      this.startEvent = false; // not started initially
+      this.disableInput = false;
+      this.countStartEvent = 0;
+      this.countPauseEvent = 0;
+      this.eventDetails = [];
+      this.timerInput.nativeElement.value = null;
+    })
   }
 
   startPauseCounter() {

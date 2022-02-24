@@ -29,6 +29,14 @@ export class Counter2Component implements OnInit {
       } 
 
     });
+
+    this.counterService.refreshControlCounter.subscribe(data => {
+      console.log("Reset Parent------");
+      this.startedCount = 0; 
+      this.pausedCount = 0;
+      this.eventsArray = [];
+      this.hideTimeStamps = false;
+    })
     /* this.startedCount = this.counterService.startedCount;
     this.pausedCount = this.counterService.pausedCount;
     this.hideTimeStamps = this.counterService.hideTimeStamps;

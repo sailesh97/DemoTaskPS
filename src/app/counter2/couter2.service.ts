@@ -7,6 +7,7 @@ import {Subject} from 'rxjs';
 
 export class Couter2Service {
   counterDetails = new Subject<any>();
+  refreshControlCounter = new Subject<any>();
   hideTimeStamps: boolean = false;
   startedCount = 0;
   pausedCount = 0;

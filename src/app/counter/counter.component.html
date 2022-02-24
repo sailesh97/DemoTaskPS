@@ -3,10 +3,11 @@
         <div class="col-sm-8">
             <app-show-timer 
             [eventDetails]="eventsArray"
+            (timerExpired)="refreshControlCounter()"
             ></app-show-timer>
         </div>
         <div class="col-sm-4">
-            <app-control-counter (startOrPause)="updateOtherComponents($event)"></app-control-counter>
+            <app-control-counter [refreshCmp]="doRefreshControlCounter" (startOrPause)="updateOtherComponents($event)"></app-control-counter>
         </div>
     </div>
     <div class="row">

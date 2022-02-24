@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-show-timer',
@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ShowTimerComponent implements OnInit {
   @Input() eventDetails:any;
+  @Output() timerExpired: any = new EventEmitter<any>();
   seconds: number = 0;
   activeTimer:any;
   prevLength:number = -1;
@@ -79,6 +80,7 @@ export class ShowTimerComponent implements OnInit {
           thisObj.seconds = seconds;
         } else{
           console.log("Clearing timer id--", this.activeTimer);
+          this.timerExpired.emit();
           clearInterval(this.activeTimer);
         }
       },1000);

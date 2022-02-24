@@ -74,6 +74,14 @@ export class ShowTimer2Component implements OnInit {
           thisObj.seconds = seconds;
         } else{
           console.log("Clearing timer id--", this.activeTimer);
+          this.seconds = 0;
+          this.prevLength = -1;
+          this.counterService.hideTimeStamps = false;
+          this.counterService.startedCount = 0;
+          this.counterService.pausedCount = 0;
+          this.counterService.eventsArray = [];
+
+          this.counterService.refreshControlCounter.next(true);
           clearInterval(this.activeTimer);
         }
       },1000);
