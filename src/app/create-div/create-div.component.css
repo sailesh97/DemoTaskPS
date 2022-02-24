@@ -1,0 +1,26 @@
+.example-viewport {
+  height: 2200px;
+  width: 100%;
+}
+::ng-deep .cdk-virtual-scroll-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.example-item {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+
+.hide{
+  display: none;
+}

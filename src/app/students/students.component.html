@@ -1,0 +1,21 @@
+<div class="container">
+    <table class="table border border-dark">
+        <thead>
+          <tr>
+            <th class="heading" scope="col" 
+                (click)="columnClicked($event)"
+                *ngFor="let heading of headings">{{heading}}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of dataArray">
+            <td>{{data.Name}}</td>
+            <td>{{data.Class}}</td>
+            <td>{{data.Section}}</td>
+            <td>{{data.Sub1}}</td>
+            <td>{{data.Sub2}}</td>
+            <td>{{data.Sub3}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>

@@ -1,0 +1,804 @@
+{
+  "students":[
+    {
+        "Name": "Senpai",
+        "Class": "32",
+        "Section": "B",
+        "Sub1": 85,
+        "Sub2": 99,
+        "Sub3": 100
+    },
+    {
+        "Name": "Yui Rio",
+        "Class": "11",
+        "Section": "B",
+        "Sub1": 86,
+        "Sub2": 98,
+        "Sub3": 100
+    },
+    {
+        "Name": "Yuna Hina",
+        "Class": "12",
+        "Section": "B",
+        "Sub1": 86,
+        "Sub2": 97,
+        "Sub3": 100
+    },
+    {
+        "Name": "Koharu Hinata",
+        "Class": "21",
+        "Section": "D",
+        "Sub1": 86,
+        "Sub2": 96,
+        "Sub3": 100
+    },
+    {
+        "Name": "Mei Mio",
+        "Class": "22",
+        "Section": "A",
+        "Sub1": 86,
+        "Sub2": 95,
+        "Sub3": 93
+    },
+    {
+        "Name": "Saki Miyu",
+        "Class": "31",
+        "Section": "F",
+        "Sub1": 86,
+        "Sub2": 94,
+        "Sub3": 100
+    },
+    {
+        "Name": "Kokona Haruka",
+        "Class": "32",
+        "Section": "F",
+        "Sub1": 86,
+        "Sub2": 93,
+        "Sub3": 100
+    },
+    {
+        "Name": "Haruto Yuto",
+        "Class": "11",
+        "Section": "F",
+        "Sub1": 88,
+        "Sub2": 92,
+        "Sub3": 97
+    },
+    {
+        "Name": "Sota Yuki",
+        "Class": "12",
+        "Section": "D",
+        "Sub1": 88,
+        "Sub2": 91,
+        "Sub3": 100
+    },
+    {
+        "Name": "Hayato Haruki",
+        "Class": "21",
+        "Section": "D",
+        "Sub1": 88,
+        "Sub2": 90,
+        "Sub3": 100
+    },
+    {
+        "Name": "Ryusei Koki",
+        "Class": "22",
+        "Section": "A",
+        "Sub1": 88,
+        "Sub2": 89,
+        "Sub3": 96
+    },
+    {
+        "Name": "Sora Sosuke",
+        "Class": "31",
+        "Section": "D",
+        "Sub1": 88,
+        "Sub2": 88,
+        "Sub3": 100
+    },
+    {
+        "Name": "Riku Soma",
+        "Class": "32",
+        "Section": "C",
+        "Sub1": 88,
+        "Sub2": 87,
+        "Sub3": 100
+    },
+    {
+        "Name": "Pippi Osu",
+        "Class": "11",
+        "Section": "A",
+        "Sub1": 95,
+        "Sub2": 86,
+        "Sub3": 100
+    },
+    {
+        "Name": "Ryuto Ippongo",
+        "Class": "12",
+        "Section": "C",
+        "Sub1": 95,
+        "Sub2": 85,
+        "Sub3": 99
+    },
+    {
+        "Name": "Midori Gurin",
+        "Class": "31",
+        "Section": "B",
+        "Sub1": 95,
+        "Sub2": 84,
+        "Sub3": 100
+    },
+    {
+        "Name": "Sakyu Basu",
+        "Class": "21",
+        "Section": "A",
+        "Sub1": 95,
+        "Sub2": 83,
+        "Sub3": 97
+    },
+    {
+        "Name": "Inkyu Basu",
+        "Class": "22",
+        "Section": "E",
+        "Sub1": 95,
+        "Sub2": 82,
+        "Sub3": 100
+    },
+    {
+        "Name": "Kuu Dere",
+        "Class": "32",
+        "Section": "D",
+        "Sub1": 95,
+        "Sub2": 81,
+        "Sub3": 100
+    },
+    {
+        "Name": "Mai Waifu",
+        "Class": "31",
+        "Section": "E",
+        "Sub1": 92,
+        "Sub2": 80,
+        "Sub3": 100
+    },
+    {
+        "Name": "Budo Masuta",
+        "Class": "32",
+        "Section": "F",
+        "Sub1": 92,
+        "Sub2": 79,
+        "Sub3": 100
+    },
+    {
+        "Name": "Sho Kunin",
+        "Class": "22",
+        "Section": "A",
+        "Sub1": 92,
+        "Sub2": 78,
+        "Sub3": 100
+    },
+    {
+        "Name": "Juku Ren",
+        "Class": "12",
+        "Section": "F",
+        "Sub1": 92,
+        "Sub2": 77,
+        "Sub3": 100
+    },
+    {
+        "Name": "Mina Rai",
+        "Class": "21",
+        "Section": "A",
+        "Sub1": 92,
+        "Sub2": 76,
+        "Sub3": 100
+    },
+    {
+        "Name": "Shima Shita",
+        "Class": "11",
+        "Section": "B",
+        "Sub1": 92,
+        "Sub2": 75,
+        "Sub3": 100
+    },
+    {
+        "Name": "Oka Ruto",
+        "Class": "32",
+        "Section": "C",
+        "Sub1": 90,
+        "Sub2": 74,
+        "Sub3": 95
+    },
+    {
+        "Name": "Shin Higaku",
+        "Class": "31",
+        "Section": "E",
+        "Sub1": 90,
+        "Sub2": 73,
+        "Sub3": 100
+    },
+    {
+        "Name": "Supana Churu",
+        "Class": "22",
+        "Section": "F",
+        "Sub1": 90,
+        "Sub2": 72,
+        "Sub3": 99
+    },
+    {
+        "Name": "Chojo Tekina",
+        "Class": "21",
+        "Section": "E",
+        "Sub1": 90,
+        "Sub2": 71,
+        "Sub3": 100
+    },
+    {
+        "Name": "Kokuma Jutsu",
+        "Class": "12",
+        "Section": "E",
+        "Sub1": 90,
+        "Sub2": 70,
+        "Sub3": 98
+    },
+    {
+        "Name": "Daku Atsu",
+        "Class": "11",
+        "Section": "A",
+        "Sub1": 90,
+        "Sub2": 69,
+        "Sub3": 98
+    },
+    {
+        "Name": "Horuda Puresu",
+        "Class": "11",
+        "Section": "A",
+        "Sub1": 98,
+        "Sub2": 68,
+        "Sub3": 100
+    },
+    {
+        "Name": "Reserved",
+        "Class": "21",
+        "Section": "F",
+        "Sub1": 89,
+        "Sub2": 67,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 66,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "C",
+        "Sub1": 100,
+        "Sub2": 65,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "D",
+        "Sub1": 100,
+        "Sub2": 64,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "D",
+        "Sub1": 100,
+        "Sub2": 63,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 62,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "C",
+        "Sub1": 100,
+        "Sub2": 61,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "D",
+        "Sub1": 100,
+        "Sub2": 60,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "C",
+        "Sub1": 100,
+        "Sub2": 59,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 58,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "F",
+        "Sub1": 100,
+        "Sub2": 57,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "D",
+        "Sub1": 100,
+        "Sub2": 56,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 55,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "D",
+        "Sub1": 100,
+        "Sub2": 54,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 53,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "B",
+        "Sub1": 100,
+        "Sub2": 52,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "E",
+        "Sub1": 100,
+        "Sub2": 51,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "D",
+        "Sub1": 100,
+        "Sub2": 50,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "F",
+        "Sub1": 100,
+        "Sub2": 49,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 48,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "C",
+        "Sub1": 100,
+        "Sub2": 47,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "F",
+        "Sub1": 100,
+        "Sub2": 46,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 45,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "E",
+        "Sub1": 100,
+        "Sub2": 44,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 43,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 42,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "E",
+        "Sub1": 100,
+        "Sub2": 41,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "B",
+        "Sub1": 100,
+        "Sub2": 40,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "D",
+        "Sub1": 100,
+        "Sub2": 39,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "B",
+        "Sub1": 100,
+        "Sub2": 38,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "C",
+        "Sub1": 100,
+        "Sub2": 37,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 36,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "E",
+        "Sub1": 100,
+        "Sub2": 35,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "C",
+        "Sub1": 100,
+        "Sub2": 34,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "D",
+        "Sub1": 100,
+        "Sub2": 33,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "F",
+        "Sub1": 100,
+        "Sub2": 32,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "C",
+        "Sub1": 100,
+        "Sub2": 31,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "F",
+        "Sub1": 100,
+        "Sub2": 30,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "F",
+        "Sub1": 100,
+        "Sub2": 29,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 28,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "F",
+        "Sub1": 100,
+        "Sub2": 27,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 26,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "F",
+        "Sub1": 100,
+        "Sub2": 25,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 24,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "C",
+        "Sub1": 100,
+        "Sub2": 23,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "F",
+        "Sub1": 100,
+        "Sub2": 22,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "E",
+        "Sub1": 100,
+        "Sub2": 21,
+        "Sub3": 100
+    },
+    {
+        "Name": "Unknown",
+        "Class": "0",
+        "Section": "C",
+        "Sub1": 100,
+        "Sub2": 20,
+        "Sub3": 100
+    },
+    {
+        "Name": "Musume Ronshaku",
+        "Class": "32",
+        "Section": "B",
+        "Sub1": 99,
+        "Sub2": 19,
+        "Sub3": 100
+    },
+    {
+        "Name": "Kashiko Murasaki",
+        "Class": "31",
+        "Section": "B",
+        "Sub1": 99,
+        "Sub2": 18,
+        "Sub3": 100
+    },
+    {
+        "Name": "Hana Daidaiyama",
+        "Class": "22",
+        "Section": "B",
+        "Sub1": 99,
+        "Sub2": 17,
+        "Sub3": 100
+    },
+    {
+        "Name": "Kokoro Momoiro",
+        "Class": "21",
+        "Section": "A",
+        "Sub1": 99,
+        "Sub2": 16,
+        "Sub3": 100
+    },
+    {
+        "Name": "Hoshiko Mizudori",
+        "Class": "12",
+        "Section": "A",
+        "Sub1": 99,
+        "Sub2": 15,
+        "Sub3": 100
+    },
+    {
+        "Name": "Kuroko Kamenaga",
+        "Class": "32",
+        "Section": "D",
+        "Sub1": 97,
+        "Sub2": 14,
+        "Sub3": 92
+    },
+    {
+        "Name": "Shiromi Torayoshi",
+        "Class": "22",
+        "Section": "B",
+        "Sub1": 97,
+        "Sub2": 13,
+        "Sub3": 91
+    },
+    {
+        "Name": "Akane Toriyasu",
+        "Class": "31",
+        "Section": "A",
+        "Sub1": 97,
+        "Sub2": 12,
+        "Sub3": 90
+    },
+    {
+        "Name": "Aoi Ryugoku",
+        "Class": "21",
+        "Section": "A",
+        "Sub1": 97,
+        "Sub2": 11,
+        "Sub3": 89
+    },
+    {
+        "Name": "Nasu Kankoshi",
+        "Class": "1",
+        "Section": "D",
+        "Sub1": 100,
+        "Sub2": 10,
+        "Sub3": 92
+    },
+    {
+        "Name": "Reina Nana",
+        "Class": "11",
+        "Section": "E",
+        "Sub1": 100,
+        "Sub2": 9,
+        "Sub3": 99
+    },
+    {
+        "Name": "Natsuki Anna",
+        "Class": "12",
+        "Section": "D",
+        "Sub1": 100,
+        "Sub2": 8,
+        "Sub3": 98
+    },
+    {
+        "Name": "Rino Fuka",
+        "Class": "21",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 7,
+        "Sub3": 97
+    },
+    {
+        "Name": "Shiori Risa",
+        "Class": "22",
+        "Section": "E",
+        "Sub1": 100,
+        "Sub2": 6,
+        "Sub3": 96
+    },
+    {
+        "Name": "Karin Hana",
+        "Class": "31",
+        "Section": "D",
+        "Sub1": 100,
+        "Sub2": 5,
+        "Sub3": 95
+    },
+    {
+        "Name": "Kaho Kanon",
+        "Class": "32",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 4,
+        "Sub3": 94
+    },
+    {
+        "Name": "Kyoshi Taiso",
+        "Class": "0",
+        "Section": "D",
+        "Sub1": 100,
+        "Sub2": 3,
+        "Sub3": 93
+    },
+    {
+        "Name": "Genka Kunahito",
+        "Class": "2",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 2,
+        "Sub3": 100
+    },
+    {
+        "Name": "Kocho Shuyona",
+        "Class": "3",
+        "Section": "A",
+        "Sub1": 100,
+        "Sub2": 1,
+        "Sub3": 100
+    },
+    {
+        "Name": "Info-chan",
+        "Class": "0",
+        "Section": "B",
+        "Sub1": 100,
+        "Sub2": 0,
+        "Sub3": 100
+    }
+]
+}

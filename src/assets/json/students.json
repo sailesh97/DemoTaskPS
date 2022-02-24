@@ -1,0 +1,33 @@
+{
+    "students":[
+        {
+            "Name": "asfd",
+            "Class": 3,
+            "Section": "D",
+            "Sub1": 23,
+            "Sub2": 54,
+            "Sub3": 65
+        },{
+            "Name": "asdf",
+            "Class": 3,
+            "Section": "E",
+            "Sub1": 23,
+            "Sub2": 45,
+            "Sub3": 67
+        },{
+            "Name": "afsd",
+            "Class": 3,
+            "Section": "F",
+            "Sub1": 26,
+            "Sub2": 34,
+            "Sub3": 45
+        },{
+            "Name": "fasd",
+            "Class": 3,
+            "Section": "A",
+            "Sub1": 34,
+            "Sub2": 34,
+            "Sub3": 71
+        }
+    ]
+}

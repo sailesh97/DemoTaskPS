@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+            <app-show-timer 
+            [eventDetails]="eventsArray"
+            ></app-show-timer>
+        </div>
+        <div class="col-sm-4">
+            <app-control-counter (startOrPause)="updateOtherComponents($event)"></app-control-counter>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-8 ps-5 py-5 my-1">
+            <span  *ngIf="!hideTimeStamps">
+                <p class="fs-5 mb-0 fw-bolder" *ngFor="let event of eventsArray;">
+                    {{event.eventType == 'start' ? 'Started' : 'Paused'}} at {{event.time | date:'dd-MM-yyyy HH:mm:ss aa'}}
+                </p>
+            </span>
+        </div>
+        <div class="col-sm-4">
+            <div class="row px-5 py-5">
+                <div class="col">
+                    <p class="fs-1 fw-bold">{{startedCount}}</p>
+                    <p class="fs-4 fw-bolder">Started</p>
+                </div>
+                <div class="col">
+                    <p class="fs-1 fw-bold">{{pausedCount}}</p>
+                    <p class="fs-4 fw-bolder">Paused</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

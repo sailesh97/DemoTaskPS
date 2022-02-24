@@ -1,0 +1,16 @@
+<div class="container border border-dark p-5">
+    <div>
+        <label for="timer">Enter Timer Limit</label>
+        <input class="m-3 form-control" type="number" name="timer" 
+            [disabled]="disableInput"
+            #timerInput min=0>
+        <p class="text-danger">{{showErrorMsg}}</p>
+    </div>
+    <div class="m-3 mt-1">
+        <button class="btn btn-sm btn-outline-info me-3"
+            (click)="startPauseCounter()"
+        >Start/Pause</button>
+        <button class="btn btn-sm btn-outline-danger" (click)="resetTimer()">Reset</button>
+    </div>
+</div>
+

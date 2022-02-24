@@ -1,0 +1,16 @@
+    <div class="container">
+        <div *ngFor="let i of alertArray">
+            <div [ngClass]="{hide:!i.show}" class="alert alert-info">Button {{i.id}} clicked
+                <button (click)="closeAlert(i)" type="button" class="btn-close float-end" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+        
+        
+        <cdk-virtual-scroll-viewport  itemSize="200" class="example-viewport d-flex flex-wrap justify-content-center">
+            <br>
+            <div *cdkVirtualFor="let item of numbers" class="example-item">
+                <button class="btn btn-primary" (click)="respond(item+1)">{{item+1}}</button>
+            </div>
+        </cdk-virtual-scroll-viewport> 
+    </div>
+

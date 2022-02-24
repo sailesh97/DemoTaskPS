@@ -1,0 +1,64 @@
+<div>
+    <div class="float-end">
+        <button class="m-3 btn btn-primary" (click)="onClickGrid()">Grid View</button>
+        <button class="btn btn-primary m-3" (click)="onClickList()">List View</button>
+        <select name="price" id="" class="dropdown" (change)="onPriceChange($event)">
+            <option value="lowToHigh">Price: Low to High</option>
+            <option value="highToLow">Price: High to Low</option>
+        </select>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="parent">
+    
+    <div 
+        *ngFor="let product of productsArray | orderBy:'price':filterPrice"
+        class="child p-4" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }">
+        <p class="text-center text-warning">
+           Price: {{product.price}}
+        </p>
+    </div>
+
+
+
+    <!-- <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div>
+    <div class="child" [ngClass]="{'productGrid': viewType === 'grid', 'productList' : viewType === 'list' }"></div> -->
+</div>

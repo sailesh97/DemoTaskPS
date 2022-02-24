@@ -1,0 +1,29 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .child {
+    border: 1px solid green;
+    height: 100px;
+    background-color: rgb(39, 99, 168);
+    /* flex: 1 0 calc(25% - 10px); */
+    /* flex: 1 0 calc(50% - 10px); */
+    /* margin:5px; */
+    
+  }
+
+/*   .product{
+    flex: 1 0 calc(50% - 10px);
+    margin:5px;
+  } */
+
+  .productList{
+    flex: 1 0 calc(50% - 10px);
+    margin:5px;
+  }
+
+  .productGrid{
+    flex: 1 0 calc(25% - 10px);
+    margin:5px;
+  }

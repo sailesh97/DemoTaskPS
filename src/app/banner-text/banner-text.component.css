@@ -1,0 +1,9 @@
+.box{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#banner-text{
+    text-align: center;
+    font-size: 50px;
+}
