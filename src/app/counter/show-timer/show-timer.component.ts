@@ -37,7 +37,7 @@ export class ShowTimerComponent implements OnInit {
 
         //Pause Timer
         let eventType = this.eventDetails[lastIndex] ? this.eventDetails[lastIndex].eventType : "";
-        console.log("Event Type--", eventType)
+        // console.log("Event Type--", eventType)
         if(eventType && eventType.toLowerCase() == 'pause'){
           pauseTimer = true;
         }
@@ -57,7 +57,7 @@ export class ShowTimerComponent implements OnInit {
           // Prev to prev trigger was an start event, then a pause event occured and 
           // then another resume event occured.
           // and It was not the 1st trigger. Means it is resumed and not started.
-          console.log("Resumed--", this.seconds, this.prevLength)
+          // console.log("Resumed--", this.seconds, this.prevLength)
         } else{
           this.seconds = this.eventDetails[lastIndex] ? this.eventDetails[lastIndex].duration : "--";
           
@@ -79,12 +79,12 @@ export class ShowTimerComponent implements OnInit {
           seconds = seconds - 1;
           thisObj.seconds = seconds;
         } else{
-          console.log("Clearing timer id--", this.activeTimer);
+          // console.log("Clearing timer id--", this.activeTimer);
           this.timerExpired.emit();
           clearInterval(this.activeTimer);
         }
       },1000);
-      console.log("Timer Id created is: ", timerId);
+      // console.log("Timer Id created is: ", timerId);
       this.activeTimer = timerId;
     }
   }

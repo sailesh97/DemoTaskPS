@@ -15,7 +15,7 @@ export class Counter2Component implements OnInit {
   constructor(private counterService: Couter2Service) { }
   ngOnInit(): void {
     this.counterService.counterDetails.subscribe((data)=>{
-      console.log("Data---------", data);
+      // console.log("Data---------", data);
       this.startedCount = data.startedCount;
       this.pausedCount = data.pausedCount;
       this.hideTimeStamps = data.hideTimeStamps;
@@ -31,7 +31,7 @@ export class Counter2Component implements OnInit {
     });
 
     this.counterService.refreshControlCounter.subscribe(data => {
-      console.log("Reset Parent------");
+      // console.log("Reset Parent------");
       this.startedCount = 0; 
       this.pausedCount = 0;
       this.eventsArray = [];

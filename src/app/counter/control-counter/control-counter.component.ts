@@ -23,7 +23,7 @@ export class ControlCounterComponent implements OnInit {
   }
 
   ngOnChanges(changes: SimpleChanges){
-    console.log("Control Counter----",this.refreshCmp, changes)
+    // console.log("Control Counter----",this.refreshCmp, changes)
     if(changes && changes['refreshCmp'] && changes['refreshCmp'].currentValue && changes['refreshCmp'].currentValue.refresh != 'undefined'){
       // Resetting the component state
       this.startEvent = false;
@@ -35,7 +35,7 @@ export class ControlCounterComponent implements OnInit {
   }
 
   startPauseCounter(e: any){
-    console.log(this.startEvent)
+    // console.log(this.startEvent)
     if(parseInt(this.timerInput.nativeElement.value)){
       this.disableInput = true;
       this.showErrorMsg = '';
@@ -48,7 +48,7 @@ export class ControlCounterComponent implements OnInit {
         this.countPauseEvent = this.countPauseEvent + 1;
       }
   
-      console.log("User Input Value--", this.timerInput.nativeElement.value)
+      // console.log("User Input Value--", this.timerInput.nativeElement.value)
       this.startOrPause.emit({
         eventType:this.startEvent ? 'start' : 'pause',
         countStartEvent: this.countStartEvent,

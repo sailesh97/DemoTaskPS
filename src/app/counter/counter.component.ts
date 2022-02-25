@@ -19,7 +19,7 @@ export class CounterComponent implements OnInit {
   }
 
   updateOtherComponents(e: any) {
-    console.log("Event-", e);
+    // console.log("Event-", e);
     this.hideTimeStamps = false;
     if (e.eventType == 'start') {
       this.startedCount = e.countStartEvent

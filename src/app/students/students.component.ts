@@ -27,15 +27,15 @@ export class StudentsComponent implements OnInit {
         let name = this.headings[i];
         this.clickCounter[name] = 0; 
       }
-      console.log(this.dataArray, this.headings);
-      console.log(this.clickCounter)
+      // console.log(this.dataArray, this.headings);
+      // console.log(this.clickCounter)
     });
   }
 
   columnClicked(eventData: any){
     let columnClicked = eventData.target.innerText;
     this.clickCounter[columnClicked] = this.clickCounter[columnClicked] + 1;
-    console.log(this.clickCounter)
+    // console.log(this.clickCounter)
     if(this.clickCounter[columnClicked] < 3){
       const sortPipe = new SortOnClickPipe();
       const sortedArray = sortPipe.transform(this.dataArray, columnClicked,this.clickCounter[columnClicked]);
